@@ -9,8 +9,8 @@ plain='\033[0m'
 os='ossystem'
 password='suniceman.com'
 port='1024'
-libsodium_file="libsodium-1.0.16"
-libsodium_url="https://github.com/jedisct1/libsodium/releases/download/1.0.16/libsodium-1.0.16.tar.gz"
+libsodium_file="libsodium-1.0.18"
+libsodium_url="https://github.com/heiyutian/libsodium/releases/download/1.0.18-RELEASE/libsodium-1.0.18.tar.gz"
 
 fly_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
