@@ -7,7 +7,7 @@ yellow='\033[0;33m'
 plain='\033[0m'
 
 os='ossystem'
-password='suniceman.com'
+password='suniceman.com11'
 port='1024'
 libsodium_file="libsodium-1.0.18"
 libsodium_url="https://github.com/heiyutian/libsodium/releases/download/1.0.18-RELEASE/libsodium-1.0.18.tar.gz"
