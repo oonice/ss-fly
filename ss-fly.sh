@@ -322,7 +322,7 @@ download_files() {
                 echo -e "[${red}错误${plain}] 下载${libsodium_file}.tar.gz失败!"
                 exit 1
         fi
-        if ! wget --no-check-certificate -O shadowsocks-master.zip https://github.com/shadowsocks/shadowsocks/archive/master.zip
+        if ! wget --no-check-certificate -O shadowsocks-master.zip https://github.com/heiyutian/libsodium/releases/download/1.0.16/shadowsocks-master.zip
         then
                 echo -e "[${red}错误${plain}] shadowsocks安装包文件下载失败！"
                 exit 1
