@@ -14,8 +14,8 @@ libsodium_url="https://github.com/heiyutian/libsodium/releases/download/1.0.16/l
 
 fly_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-kernel_ubuntu_url="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10.2/linux-image-4.10.2-041002-generic_4.10.2-041002.201703120131_amd64.deb"
-kernel_ubuntu_file="linux-image-4.10.2-041002-generic_4.10.2-041002.201703120131_amd64.deb"
+kernel_ubuntu_url="https://github.com/heiyutian/libsodium/releases/download/1.0.16/linux-image-4.10.5-041005-generic_4.10.5-041005.201703220931_amd64.deb"
+kernel_ubuntu_file="linux-image-4.10.5-041005-generic_4.10.5-041005.201703220931_amd64.deb"
 
 usage () {
         cat $fly_dir/sshelp
