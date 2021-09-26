@@ -10,11 +10,11 @@ os='ossystem'
 password='suniceman.com11'
 port='1024'
 libsodium_file="libsodium-1.0.18"
-libsodium_url="https://github.com/heiyutian/libsodium/releases/download/1.0.18-RELEASE/libsodium-1.0.18.tar.gz"
+libsodium_url="https://github.com/oonice/libsodium/releases/download/1.0.18-RELEASE/libsodium-1.0.18.tar.gz"
 
 fly_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-kernel_ubuntu_url="https://github.com/heiyutian/libsodium/releases/download/1.0.16/linux-image-4.10.5-041005-generic_4.10.5-041005.201703220931_amd64.deb"
+kernel_ubuntu_url="https://github.com/oonice/libsodium/releases/download/1.0.16/linux-image-4.10.5-041005-generic_4.10.5-041005.201703220931_amd64.deb"
 kernel_ubuntu_file="linux-image-4.10.5-041005-generic_4.10.5-041005.201703220931_amd64.deb"
 
 usage () {
@@ -153,7 +153,7 @@ install_ssr() {
                      yum install -y wget
                      ;;
         esac
-	wget --no-check-certificate https://raw.githubusercontent.com/heiyutian/shadowsocks_install/master/shadowsocksR.sh
+	wget --no-check-certificate https://raw.githubusercontent.com/oonice/shadowsocks_install/master/shadowsocksR.sh
 	chmod +x shadowsocksR.sh
 	./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 }
@@ -322,7 +322,7 @@ download_files() {
                 echo -e "[${red}错误${plain}] 下载${libsodium_file}.tar.gz失败!"
                 exit 1
         fi
-        if ! wget --no-check-certificate -O shadowsocks-master.zip https://github.com/heiyutian/libsodium/releases/download/1.0.16/shadowsocks-master.zip
+        if ! wget --no-check-certificate -O shadowsocks-master.zip https://github.com/oonice/libsodium/releases/download/1.0.16/shadowsocks-master.zip
         then
                 echo -e "[${red}错误${plain}] shadowsocks安装包文件下载失败！"
                 exit 1
